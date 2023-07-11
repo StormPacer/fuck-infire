@@ -1,0 +1,101 @@
+body {
+    background-color: #202020;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1920px) {
+    body {
+        font-size: 14px !important;
+    }
+    
+    .torrent {
+        width: 350px !important;
+    }
+
+    .torrent-info {
+        height: 50px !important;
+    }
+}
+
+.head {
+    text-align: center;
+}
+
+.head>input {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #484848;
+    color: #fff;
+}
+
+.torrent {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.torrent-name {
+    word-break: break-all;
+    font-size: 18px;
+    height: 50px;
+}
+
+.torrent-type-uploaded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.torrent-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.torrents {
+    padding: 50px;
+    width: 96.1%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.torrent-link {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #202020;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: #8eb0ff;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.no-torrents {
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    width: 100%;
+}
