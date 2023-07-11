@@ -28,7 +28,7 @@ StormFire omogoča nalaganje torrentov iz infire.si, brez da bi imeli račun. Pr
 
 Koraki:
 1. Naloženo morate imeti trenutno LTS verzijo [Node](https://nodejs.org/en) (ali višjo verzijo)
-2. Ko naložite kodo morate v .env datoteki dodati svoje podatke za HASX, PASS in UID. Te podatki so sharnjeni v piškotkih brskalnika ko ste prijavjleni v Infire (PORT je opcijski, v primeru da port ni podan, se bo server zagnal na portu 3000)
+2. Ko naložite kodo morate v .env datoteki dodati svoje podatke za HASHX, PASS in UID. Te podatki so sharnjeni v piškotkih brskalnika ko ste prijavjleni v Infire (PORT je opcijski, v primeru da port ni podan, se bo server zagnal na portu 3000)
 3. Preden projekt zaženete v terminal napišite `npm i`, da naložite vse pakete, ki jih potrebujete
 4. Projekt zaženete s tem da v terminal napišete `npm run start`
 
